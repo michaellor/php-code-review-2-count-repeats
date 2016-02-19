@@ -13,7 +13,21 @@
             $result = $new_count->findMatch($string_input);
 
             //Assert
-            $this->assertEquals(["That","fish","is","a","red","fish"], $result);
+            $this->assertEquals(["that","fish","is","a","red","fish"], $result);
+        }
+
+        function test_match_word_in_array()
+        {
+            //Arrange
+            $new_count = new CountRepeats;
+            $string_input = "That fish is a red fish";
+            $word_input = "fish";
+
+            //Act
+            $result = $new_count->findMatch($string_input, $word_input);
+
+            //Assert
+            $this->assertEquals(TRUE, $result);
         }
     }
 ?>
