@@ -1,0 +1,18 @@
+BDD PHP Code Review
+Project: Count Repeats
+Spec Test Outline
+=====
+
+1. Take a user input string and create an array.
+    Input: String input.
+          Example: "That fish is a red fish"
+    Expect: Array that contains individual elements of the string input.
+          Example: ["That", "fish", "is", "a", "red", "fish"]
+
+2. Identify word input within the array elements from the array that was created.
+    Input: The word input and the string array.
+    Expect: Find the input words within the array.
+
+3. Define a variable for counting, which increments.
+    Input: Find the input words within the array.
+    Expect:
