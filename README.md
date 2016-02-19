@@ -5,7 +5,7 @@
 
 ##Description
 
-This is a website that finds and counts the number of times a user provided word occurs in a user provided string. The program outputs a numeric value based on how many times the input word was matched with the input string. The behavior driven developmental process includes a written spec.txt file and a test file using PHPUnit. This program utilizes the Silex and Twig frameworks to route business and user logic.
+This is a website that finds and counts the number of times a user provided word occurs in a user provided string. The program outputs a numeric value based on how many times the input word matched with the input string. The behavior driven developmental process includes a written spec.txt file and a test file using PHPUnit. This program utilizes the Silex and Twig frameworks to route business and user logic.
 
 ##Setup
 1) Clone this repository to local drive.
