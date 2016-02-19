@@ -1,8 +1,8 @@
 <?php
 
-    class CountRepeats
+    class RepeatCounter
     {
-        function findMatch($string_input, $word_input)
+        function CountRepeats($string_input, $word_input)
         {
             $string_input = strtolower($string_input);
             $string_array = explode(" ",$string_input);
