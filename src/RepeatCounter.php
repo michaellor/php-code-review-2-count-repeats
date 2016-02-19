@@ -15,7 +15,6 @@
                     $match_counter = $match_counter + 1;
                 }
             }
-
             return $match_counter;
         }
     }
