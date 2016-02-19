@@ -16,7 +16,7 @@ This is a website that finds and counts the number of times a user provided word
 
 3) From the command line, run the following while in the /web folder:
 
-php -S localhost:8000
+    php -S localhost:8000
 
 4) To view the webpage, open a web browser and go to http://localhost:8000
 
