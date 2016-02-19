@@ -2,24 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='/css/styles.css'>
+    <title>Count Repeats</title>
   </head>
   <body>
     <div class="container">
       <h1>Count Repeats</h1>
-      <div class="row">
-        <form action="/results" method="get">
-          <div class="col-sm-6">
-            <label for="string">Enter a sentence: </label>
-            <input name="string" type="text">
-          </div>
-          <div class="col-sm-6">
-            <label for="word">Enter a word: </label>
-            <input name="word" type="text">
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-
+      <br>
+      <form action="/results" method="get">
+        <div>
+          <label for="string">Enter a sentence: </label>
+          <input name="string" type="text" id="string">
+        </div>
+        <br>
+        <div>
+          <label for="word">Enter a word: </label>
+          <input name="word" type="text">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </body>
 </html>
