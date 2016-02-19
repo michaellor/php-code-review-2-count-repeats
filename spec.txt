@@ -11,8 +11,12 @@ Spec Test Outline
 
 2. Identify word input within the array elements from the array that was created.
     Input: The word input and the string array.
+          Example: "fish" in ["That", "fish", "is", "a", "red", "fish"]
     Expect: Find the input words within the array.
+          Example: [__,"fish",__,__,__,"fish"]
 
 3. Define a variable for counting, which increments.
     Input: Find the input words within the array.
+          Example: [__,"fish",__,__,__,"fish"]
     Expect:
+          $counter = 2;
