@@ -12,7 +12,7 @@
             {
                 if($word_input == $word)
                 {
-                    $match_counter .=;
+                    $match_counter = $match_counter + 1;
                 }
             }
 

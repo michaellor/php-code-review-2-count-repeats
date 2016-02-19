@@ -8,9 +8,10 @@
             //Arrange
             $new_count = new CountRepeats;
             $string_input = "That fish is a red fish";
+            $word_input = "fish";
 
             //Act
-            $result = $new_count->findMatch($string_input);
+            $result = $new_count->findMatch($string_input, $word_input);
 
             //Assert
             $this->assertEquals(["that","fish","is","a","red","fish"], $result);
