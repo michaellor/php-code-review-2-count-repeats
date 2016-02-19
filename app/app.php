@@ -12,6 +12,15 @@
         return $app["twig"]->render("form.html.twig");
     });
 
+    $app->get("/results", function() use ($app)
+    {
+        $new_word_match = new RepeatCounter;
+        $string_input = $_GET["string"];
+        $word_input = $_GET["word"];
+        $counter = $new_word_match->CountRepeats($string_input, $word_input);
+        return $app["twig"]->render("results.html.twig", array("result"=>$counter));]
+    });
+
 
     return $app;
 ?>
