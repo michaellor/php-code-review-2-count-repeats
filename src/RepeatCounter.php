@@ -4,6 +4,8 @@
     {
         function CountRepeats($string_input, $word_input)
         {
+            $string_input = preg_replace('/[^a-z0-9]+/i', ' ', $string_input);
+            var_dump($string_input);
             $string_input = strtolower($string_input);
             $string_array = explode(" ",$string_input);
             $match_counter = 0;

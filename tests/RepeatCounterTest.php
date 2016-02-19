@@ -1,7 +1,7 @@
 <?php
-    require_once "src/CountRepeats.php";
+    require_once "src/RepeatCounter.php";
 
-    class CountRepeatsTest extends PHPUnit_Framework_TestCase
+    class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
         function test_string_input_to_array()
         {
