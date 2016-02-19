@@ -2,9 +2,10 @@
 
     class CountRepeats
     {
-        function findMatch()
+        function findMatch($string_input)
         {
-            
+            $string_array = explode(" ",$string_input);
+            return $string_array;
         }
     }
 
